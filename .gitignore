@@ -1,1 +1,20 @@
-./retail_sales
+/retail_sales/retail_sales
+/vs
+# User-specific files
+*.suo
+*.user
+
+# Build results
+/bin/
+/obj/
+
+# SQL Server data files
+*.mdf
+*.ldf
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Dataset files (if you don't want to version large CSVs)
+/Data/*.csv
